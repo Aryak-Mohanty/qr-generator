@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom QR Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Custom QR Code Generator</h1>
+    <input type="text" id="urlInput" placeholder="Enter website URL" />
+    <button onclick="generateQRCode()">Generate QR Code</button>
+    <button onclick="downloadQR()">Download QR Code</button>
+    <div id="qr"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qr-code-styling/lib/qr-code-styling.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
